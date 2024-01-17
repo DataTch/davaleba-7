@@ -324,15 +324,18 @@ footer{
     background-image: url(image/background-bottom.png) ;
     width: 1600px;
     height: 1225px;
-    margin-top: 114px;
-}
+    display: flex;
+    justify-content: space-around;
+    padding-top: 215px;
+    flex-direction: column;
+} 
 
 .footer-1 h3{
     display: flex;
     justify-content: center;
     font-family: roboto;
     font-size: 40px;
-    color: black;
+    color: white;
     
 }    
 
@@ -373,15 +376,15 @@ footer{
     border-radius: 30px;
 }
 
-.footer{
+.bolo-bari{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     justify-content: space-around;
-    margin-top: 170px;
-    gap: 200pxpx;
+    margin-bottom: 103px ;
+
 }
 
-.fiiter-logo{
+.footer-logo{
     width: 138.017px;
     height: 30px;
     color: #8794BA;
@@ -403,6 +406,7 @@ footer{
 .footer-soc{
     display: flex;
     column-gap: 40px;
+    align-items: center;
 }
 
 .facebook{
